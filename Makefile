@@ -1,5 +1,5 @@
 .PHONY: venv tests check-black check-flake lint format examples build
-VENV ?= .venv
+VENV ?= venv
 PYTHON = ${VENV}/bin/python
 
 venv:
